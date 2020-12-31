@@ -1,0 +1,70 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.address {
+	float: left;
+	padding-right: 30px;
+}
+
+.btn {
+	padding: 0 50px 0 50px;
+}
+
+.logosmall {
+	float: left;
+	padding-right: 10px;
+}
+
+.goto a {
+	color: #000;
+}
+
+
+@media (max-width: 979px) and (min-width: 768px){
+	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+			width: 724px;	
+			margin-top: 20px;
+	}
+	
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	.container {
+			margin: 20px 0 0 0px;
+	}
+	
+	.scooter {
+		margin-top: 40px;
+	}
+
+	.map {
+		display: none; 
+	}
+	
+	.goto {
+		padding: 5px 10px 5px 10px;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 480px) {
+	.container {
+			margin: 20px 0 0 0px;
+	}
+	
+	.scooter {
+		margin-top: 40px;
+	}
+	
+	.goto {
+		padding: 5px 10px 5px 10px;
+		margin-bottom: 10px;
+	}
+	
+}
+
